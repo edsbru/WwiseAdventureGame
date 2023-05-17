@@ -3,6 +3,14 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{B839434B-E647-4E36-9062-B3C1BE29D11C}">
 			<PropertyList>
+				<Property Name="Event Action List\{082E1357-AB87-48E5-BC55-A05AC2E58A86}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{0B195CA2-DAD7-46B5-9CD2-8C49F379DE40}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6F7997C3-7C28-457C-BFA4-D55AC9BB2F0F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7299B603-A8C6-4308-BE7A-E2AF47A03155}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{806F1DA1-7479-402E-98BA-A195DDF63AC0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{8D89E5AD-AB34-40F1-B0A3-52E2BFA8D398}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C7CE3745-16E9-43EF-9648-265A43AA6163}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F3D5E595-FC6B-4023-BD2F-4938AF405365}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
@@ -13,6 +21,9 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>

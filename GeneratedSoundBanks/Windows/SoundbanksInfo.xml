@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="133642231" Language="SFX" Hash="1634392131">
+			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<IncludedEvents>
+				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\Default Work Unit\UI_Buttons\UI_Button_Down">
+					<IncludedMemoryFiles>
+						<File Id="14456657" Language="SFX">
+							<ShortName>BAS_Button_Over.wav</ShortName>
+							<Path>SFX\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="18309885" Name="UI_Button_Enter" ObjectPath="\Events\Default Work Unit\UI_Buttons\UI_Button_Enter">
+					<IncludedMemoryFiles>
+						<File Id="922600091" Language="SFX">
+							<ShortName>BAS_Button_Enter.wav</ShortName>
+							<Path>SFX\BAS_Button_Enter_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2325560497" Name="UI_Button_Exit" ObjectPath="\Events\Default Work Unit\UI_Buttons\UI_Button_Exit">
+					<IncludedMemoryFiles>
+						<File Id="443777848" Language="SFX">
+							<ShortName>BAS_Button_Close.wav</ShortName>
+							<Path>SFX\BAS_Button_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="15662850" Name="UI_Button_Up" ObjectPath="\Events\Default Work Unit\UI_Buttons\UI_Button_Up">
+					<IncludedMemoryFiles>
+						<File Id="14456657" Language="SFX">
+							<ShortName>BAS_Button_Over.wav</ShortName>
+							<Path>SFX\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

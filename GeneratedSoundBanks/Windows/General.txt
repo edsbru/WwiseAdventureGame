@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	15662850	UI_Button_Up			\Default Work Unit\UI_Buttons\UI_Button_Up	
+	18309885	UI_Button_Enter			\Default Work Unit\UI_Buttons\UI_Button_Enter	
+	156563189	UI_Button_Down			\Default Work Unit\UI_Buttons\UI_Button_Down	
+	2325560497	UI_Button_Exit			\Default Work Unit\UI_Buttons\UI_Button_Exit	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	14456657	BAS_Button_Over	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MainMenu\BAS_Button_Over		21240
+	443777848	BAS_Button_Close	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MainMenu\BAS_Button_Close		62500
+	922600091	BAS_Button_Enter	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MainMenu\BAS_Button_Enter		117424
+

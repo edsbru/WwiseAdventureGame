@@ -6,6 +6,9 @@
 				<SoundBank Name="General" ID="{6ED55AB8-DF23-4084-9041-563FEE8A291E}">
 					<ObjectInclusionList>
 						<ObjectRef Name="UI_Button_Down" ID="{806F1DA1-7479-402E-98BA-A195DDF63AC0}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Up" ID="{7299B603-A8C6-4308-BE7A-E2AF47A03155}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Enter" ID="{6F7997C3-7C28-457C-BFA4-D55AC9BB2F0F}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Exit" ID="{0B195CA2-DAD7-46B5-9CD2-8C49F379DE40}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

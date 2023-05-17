@@ -3,17 +3,102 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="UI_Button_Down" ID="{806F1DA1-7479-402E-98BA-A195DDF63AC0}">
+				<Folder Name="UI_Buttons" ID="{A2CBDA88-2E32-48AE-A09E-1CCF3BD420DB}" ShortID="152232077">
 					<ChildrenList>
-						<Action Name="" ID="{769510B7-5F0F-4689-9231-6AD2C0D4E65C}" ShortID="913174172">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="BAS_Button_Over" ID="{C48C99DF-7199-4966-9FD0-F9B7B02106EB}" WorkUnitID="{9157F5EB-8B5E-433E-AE5F-B094D5E1FB02}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="UI_Button_Down" ID="{806F1DA1-7479-402E-98BA-A195DDF63AC0}">
+							<ChildrenList>
+								<Action Name="" ID="{769510B7-5F0F-4689-9231-6AD2C0D4E65C}" ShortID="913174172">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Button_Over" ID="{C48C99DF-7199-4966-9FD0-F9B7B02106EB}" WorkUnitID="{9157F5EB-8B5E-433E-AE5F-B094D5E1FB02}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Button_Up" ID="{7299B603-A8C6-4308-BE7A-E2AF47A03155}">
+							<ChildrenList>
+								<Action Name="" ID="{B57F5137-EC93-4743-B3C3-09E48737F9FF}" ShortID="667177678">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Button_Over" ID="{C48C99DF-7199-4966-9FD0-F9B7B02106EB}" WorkUnitID="{9157F5EB-8B5E-433E-AE5F-B094D5E1FB02}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Button_Enter" ID="{6F7997C3-7C28-457C-BFA4-D55AC9BB2F0F}">
+							<ChildrenList>
+								<Action Name="" ID="{3317CBED-4453-4FF0-BFCD-9FE93D2B9302}" ShortID="898502050">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Button_Enter" ID="{9B422E98-80DE-4863-9FD1-8839A9FF464D}" WorkUnitID="{9157F5EB-8B5E-433E-AE5F-B094D5E1FB02}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Button_Exit" ID="{0B195CA2-DAD7-46B5-9CD2-8C49F379DE40}">
+							<ChildrenList>
+								<Action Name="" ID="{C9A8AD53-6ABA-4CAC-8BDA-EEC84394CFE7}" ShortID="777159223">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Button_Close" ID="{3BAD8BB6-1001-4E74-BA3D-9F0518CFE9B5}" WorkUnitID="{9157F5EB-8B5E-433E-AE5F-B094D5E1FB02}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="UI_Menu" ID="{8B10AC24-C9F8-47A9-8EA6-47BAAC1A1E93}" ShortID="495464452">
+					<ChildrenList>
+						<Event Name="UI_Menu_Pause" ID="{082E1357-AB87-48E5-BC55-A05AC2E58A86}">
+							<ChildrenList>
+								<Action Name="" ID="{42A4FF0A-F571-4B41-BBD7-273E808A3EF8}" ShortID="753619674">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Button_Open" ID="{BF85477F-30DE-4DD8-BC51-E6365C821F44}" WorkUnitID="{9157F5EB-8B5E-433E-AE5F-B094D5E1FB02}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Menu_Resume" ID="{C7CE3745-16E9-43EF-9648-265A43AA6163}">
+							<ChildrenList>
+								<Action Name="" ID="{8DBDA1E1-A48C-4B5F-B4F5-0BA9BBC1D781}" ShortID="380163140">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Button_Close" ID="{3BAD8BB6-1001-4E74-BA3D-9F0518CFE9B5}" WorkUnitID="{9157F5EB-8B5E-433E-AE5F-B094D5E1FB02}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Menu_Select" ID="{8D89E5AD-AB34-40F1-B0A3-52E2BFA8D398}">
+							<ChildrenList>
+								<Action Name="" ID="{12F192C2-4177-4E25-86DC-1A531C105218}" ShortID="800277549">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Button_Over" ID="{C48C99DF-7199-4966-9FD0-F9B7B02106EB}" WorkUnitID="{9157F5EB-8B5E-433E-AE5F-B094D5E1FB02}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Menu_Teleport" ID="{F3D5E595-FC6B-4023-BD2F-4938AF405365}">
+							<ChildrenList>
+								<Action Name="" ID="{A85079B5-B14E-421A-9FF8-D16405D2D3F8}" ShortID="437019972">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Button_Teleport" ID="{5765853B-06A8-470E-A7DB-5E0348D75C88}" WorkUnitID="{9157F5EB-8B5E-433E-AE5F-B094D5E1FB02}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

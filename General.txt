@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	156563189	UI_Button_Down			\Default Work Unit\UI_Button_Down	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	14456657	BAS_Button_Over	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseProjects\ResonorizarAdventureGame\.cache\Windows\SFX\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BAS_Button_Over		0
+
