@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9157F5EB-8B5E-433E-AE5F-B094D5E1FB02}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{9157F5EB-8B5E-433E-AE5F-B094D5E1FB02}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="BAS_Button_Over" ID="{C48C99DF-7199-4966-9FD0-F9B7B02106EB}" ShortID="419021118">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BAS_Button_Over" ID="{880CA93B-D004-4462-AF57-922231957015}">
+							<Language>SFX</Language>
+							<AudioFile>BAS_Button_Over.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="14456657"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="BAS_Button_Over" ID="{880CA93B-D004-4462-AF57-922231957015}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

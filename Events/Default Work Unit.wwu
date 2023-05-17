@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="UI_Button_Down" ID="{806F1DA1-7479-402E-98BA-A195DDF63AC0}">
+					<ChildrenList>
+						<Action Name="" ID="{769510B7-5F0F-4689-9231-6AD2C0D4E65C}" ShortID="913174172">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Button_Over" ID="{C48C99DF-7199-4966-9FD0-F9B7B02106EB}" WorkUnitID="{9157F5EB-8B5E-433E-AE5F-B094D5E1FB02}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
