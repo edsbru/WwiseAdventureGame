@@ -2,10 +2,28 @@ Event	ID	Name			Wwise Object Path	Notes
 	15662850	UI_Button_Up			\Default Work Unit\UI_Buttons\UI_Button_Up	
 	18309885	UI_Button_Enter			\Default Work Unit\UI_Buttons\UI_Button_Enter	
 	156563189	UI_Button_Down			\Default Work Unit\UI_Buttons\UI_Button_Down	
+	750089663	UI_Menu_Teleport			\Default Work Unit\UI_Menu\UI_Menu_Teleport	
+	808893336	UI_QuestRoll_Close			\Default Work Unit\UI_QuestRoll\UI_QuestRoll_Close	
+	949395292	UI_QuestRoll_Open			\Default Work Unit\UI_QuestRoll\UI_QuestRoll_Open	
+	1464993479	UI_Menu_Resume			\Default Work Unit\UI_Menu\UI_Menu_Resume	
+	2199611969	UI_Inventory_Open			\Default Work Unit\UI_Inventory\UI_Inventory_Open	
+	2278290679	UI_Inventory_Close			\Default Work Unit\UI_Inventory\UI_Inventory_Close	
 	2325560497	UI_Button_Exit			\Default Work Unit\UI_Buttons\UI_Button_Exit	
+	2792117052	UI_QuestRoll_Hide			\Default Work Unit\UI_QuestRoll\UI_QuestRoll_Hide	
+	3237189652	UI_Menu_Pause			\Default Work Unit\UI_Menu\UI_Menu_Pause	
+	3474566310	UI_Menu_Select			\Default Work Unit\UI_Menu\UI_Menu_Select	
+	3699139167	UI_QuestRoll_Show			\Default Work Unit\UI_QuestRoll\UI_QuestRoll_Show	
+	3749307760	UI_Inventory_Roll			\Default Work Unit\UI_Inventory\UI_Inventory_Roll	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	14456657	BAS_Button_Over	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MainMenu\BAS_Button_Over		21240
-	443777848	BAS_Button_Close	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MainMenu\BAS_Button_Close		62500
-	922600091	BAS_Button_Enter	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MainMenu\BAS_Button_Enter		117424
+	14456657	BAS_Button_Over	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\BAS_Button_Over		21240
+	99870076	BAS_Button_Teleport	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\BAS_Button_Teleport		345428
+	130784098	BAS_Inventory_Scroll	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_Inventory_Scroll_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Inventory\BAS_Inventory_Scroll		53956
+	207608863	BAS_QuestRoll_Open	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_QuestRoll_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Quest Roll\BAS_QuestRoll_Open		104478
+	345385131	BAS_Button_Open	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\BAS_Button_Open		56256
+	406361246	BAS_Inventory_Close	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_Inventory_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Inventory\BAS_Inventory_Close		46624
+	443777848	BAS_Button_Close	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\BAS_Button_Close		62500
+	586153690	BAS_QuestRoll_Close	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_QuestRoll_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Quest Roll\BAS_QuestRoll_Close		112326
+	855576974	BAS_Inventory_Open	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_Inventory_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Inventory\BAS_Inventory_Open		45368
+	922600091	BAS_Button_Enter	C:\Users\SALAZARBRUFAUEDUARDO\Documents\WwiseAdventureGame\.cache\Windows\SFX\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\BAS_Button_Enter		117424
 

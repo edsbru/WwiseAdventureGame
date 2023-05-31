@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="1634392131">
+		<SoundBank Id="133642231" Language="SFX" Hash="689577175">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -45,6 +45,94 @@
 						<File Id="14456657" Language="SFX">
 							<ShortName>BAS_Button_Over.wav</ShortName>
 							<Path>SFX\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2278290679" Name="UI_Inventory_Close" ObjectPath="\Events\Default Work Unit\UI_Inventory\UI_Inventory_Close">
+					<IncludedMemoryFiles>
+						<File Id="406361246" Language="SFX">
+							<ShortName>BAS_Inventory_Close.wav</ShortName>
+							<Path>SFX\BAS_Inventory_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2199611969" Name="UI_Inventory_Open" ObjectPath="\Events\Default Work Unit\UI_Inventory\UI_Inventory_Open">
+					<IncludedMemoryFiles>
+						<File Id="855576974" Language="SFX">
+							<ShortName>BAS_Inventory_Open.wav</ShortName>
+							<Path>SFX\BAS_Inventory_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3749307760" Name="UI_Inventory_Roll" ObjectPath="\Events\Default Work Unit\UI_Inventory\UI_Inventory_Roll">
+					<IncludedMemoryFiles>
+						<File Id="130784098" Language="SFX">
+							<ShortName>BAS_Inventory_Scroll.wav</ShortName>
+							<Path>SFX\BAS_Inventory_Scroll_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\Default Work Unit\UI_Menu\UI_Menu_Pause">
+					<IncludedMemoryFiles>
+						<File Id="345385131" Language="SFX">
+							<ShortName>BAS_Button_Open.wav</ShortName>
+							<Path>SFX\BAS_Button_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\Default Work Unit\UI_Menu\UI_Menu_Resume">
+					<IncludedMemoryFiles>
+						<File Id="443777848" Language="SFX">
+							<ShortName>BAS_Button_Close.wav</ShortName>
+							<Path>SFX\BAS_Button_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\Default Work Unit\UI_Menu\UI_Menu_Select">
+					<IncludedMemoryFiles>
+						<File Id="14456657" Language="SFX">
+							<ShortName>BAS_Button_Over.wav</ShortName>
+							<Path>SFX\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\Default Work Unit\UI_Menu\UI_Menu_Teleport">
+					<IncludedMemoryFiles>
+						<File Id="99870076" Language="SFX">
+							<ShortName>BAS_Button_Teleport.wav</ShortName>
+							<Path>SFX\BAS_Button_Teleport_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="808893336" Name="UI_QuestRoll_Close" ObjectPath="\Events\Default Work Unit\UI_QuestRoll\UI_QuestRoll_Close">
+					<IncludedMemoryFiles>
+						<File Id="586153690" Language="SFX">
+							<ShortName>BAS_QuestRoll_Close.wav</ShortName>
+							<Path>SFX\BAS_QuestRoll_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2792117052" Name="UI_QuestRoll_Hide" ObjectPath="\Events\Default Work Unit\UI_QuestRoll\UI_QuestRoll_Hide">
+					<IncludedMemoryFiles>
+						<File Id="586153690" Language="SFX">
+							<ShortName>BAS_QuestRoll_Close.wav</ShortName>
+							<Path>SFX\BAS_QuestRoll_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="949395292" Name="UI_QuestRoll_Open" ObjectPath="\Events\Default Work Unit\UI_QuestRoll\UI_QuestRoll_Open">
+					<IncludedMemoryFiles>
+						<File Id="207608863" Language="SFX">
+							<ShortName>BAS_QuestRoll_Open.wav</ShortName>
+							<Path>SFX\BAS_QuestRoll_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3699139167" Name="UI_QuestRoll_Show" ObjectPath="\Events\Default Work Unit\UI_QuestRoll\UI_QuestRoll_Show">
+					<IncludedMemoryFiles>
+						<File Id="207608863" Language="SFX">
+							<ShortName>BAS_QuestRoll_Open.wav</ShortName>
+							<Path>SFX\BAS_QuestRoll_Open_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

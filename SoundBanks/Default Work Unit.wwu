@@ -5,10 +5,22 @@
 			<ChildrenList>
 				<SoundBank Name="General" ID="{6ED55AB8-DF23-4084-9041-563FEE8A291E}">
 					<ObjectInclusionList>
+						<ObjectRef Name="UI_Menu_Teleport" ID="{F3D5E595-FC6B-4023-BD2F-4938AF405365}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Down" ID="{806F1DA1-7479-402E-98BA-A195DDF63AC0}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Select" ID="{8D89E5AD-AB34-40F1-B0A3-52E2BFA8D398}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Cave" ID="{7889E2D3-A66F-42DD-9FB6-182D99DEC4CC}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Up" ID="{7299B603-A8C6-4308-BE7A-E2AF47A03155}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Resume" ID="{C7CE3745-16E9-43EF-9648-265A43AA6163}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Roll" ID="{C967686A-391F-4521-BB9C-121FFFD5A5F8}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Enter" ID="{6F7997C3-7C28-457C-BFA4-D55AC9BB2F0F}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Exit" ID="{0B195CA2-DAD7-46B5-9CD2-8C49F379DE40}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Close" ID="{C1224775-80AE-47AD-9955-15C3620174F2}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Pause" ID="{082E1357-AB87-48E5-BC55-A05AC2E58A86}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Hide" ID="{3ACB5951-F3D0-4920-A0A7-93846E0DEBC7}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Close" ID="{AAA56523-B25E-4A4F-8D4E-A47A4CEF56E3}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Open" ID="{597B6ED1-F6DB-4C9E-9D9E-8C99D16D73BA}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Show" ID="{A063E023-EAF8-4D7E-BF9E-5DA035BDC123}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Open" ID="{C840D68B-58E8-4ED5-8C2B-6C137BC82DE9}" WorkUnitID="{0D5031B4-273A-44BB-B995-06B1C90FF634}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
