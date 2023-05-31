@@ -308,6 +308,672 @@
 								<ActiveSource Name="BAS_amb_cave_background_LP" ID="{26296DE1-ED4A-4F98-A64F-E82098E35E92}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="BAS_amb_desert_day_background_loop_01" ID="{A93B225D-A770-46DE-9D05-A97837086FCD}" ShortID="11493153">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{A100D4A2-818D-417F-9475-F539FB8D389D}" ShortID="10316721">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{A7DB6346-0810-47E8-8E0F-D78F67EE36CF}" WorkUnitID="{3DBED5E2-DA28-4487-B41E-D555A42C45BB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{E4535C62-B07C-47C8-B91D-C75B38081784}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>7</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>19</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_desert_day_background_loop_01" ID="{AEAC27A9-62DF-4CF1-8D84-799F09592279}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_amb_desert_day_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="669348913"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_desert_day_background_loop_01" ID="{AEAC27A9-62DF-4CF1-8D84-799F09592279}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_desert_night_background_loop_01" ID="{BBB5EC46-E2C6-4D70-BEF6-003D88DD966C}" ShortID="91017113">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{3CC090C4-68C2-41E5-AFC4-82C0E924217C}" ShortID="11891822">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{A7DB6346-0810-47E8-8E0F-D78F67EE36CF}" WorkUnitID="{3DBED5E2-DA28-4487-B41E-D555A42C45BB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F720B963-3064-47EF-8C64-29D986F34EA7}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0.10658</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>0.10658</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6.94286</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>18.94286</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>-0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_desert_night_background_loop_01" ID="{2FE365A2-0615-402D-90FE-300D9D78C7D2}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_amb_desert_night_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="50389841"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_desert_night_background_loop_01" ID="{2FE365A2-0615-402D-90FE-300D9D78C7D2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_forest_night_background_loop_02" ID="{FE079385-8D3E-4350-A047-689794DFC186}" ShortID="372024291">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{B7BEB6CA-F4B9-4B46-88A8-60CBFB4CB515}" ShortID="569226757">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{A7DB6346-0810-47E8-8E0F-D78F67EE36CF}" WorkUnitID="{3DBED5E2-DA28-4487-B41E-D555A42C45BB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{E6A84913-19BF-4A1A-960C-D2EEBCAD2B7A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0.106580000000008</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>0.106580000000008</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6.94286</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>18.94286</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>-0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_forest_night_background_loop_02" ID="{3F7AB947-6FA4-4672-A5D0-A91FCAA6C57D}">
+									<Language>SFX</Language>
+									<AudioFile>amb_forest_night_background_loop_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="60382473"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_forest_night_background_loop_02" ID="{3F7AB947-6FA4-4672-A5D0-A91FCAA6C57D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="amb_forest_night_background_loop_04" ID="{B93218F8-285A-4619-8B7D-A0A28E4DB4D0}" ShortID="280704134">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{3ABA04C8-BD40-4EFC-BBF2-772315EE7C11}" ShortID="300493755">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{A7DB6346-0810-47E8-8E0F-D78F67EE36CF}" WorkUnitID="{3DBED5E2-DA28-4487-B41E-D555A42C45BB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6D6F47A2-D5F2-4B8E-879A-16AA60D92595}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0.106580000000008</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>0.106580000000008</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6.94286</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>18.94286</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>-0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="amb_forest_night_background_loop_04" ID="{FC16C83F-66C1-4787-B587-FB69D22D2B1B}">
+									<Language>SFX</Language>
+									<AudioFile>amb_forest_night_background_loop_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="813156220"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="amb_forest_night_background_loop_04" ID="{FC16C83F-66C1-4787-B587-FB69D22D2B1B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_dungeon_day_background_loop_01" ID="{EA278925-4162-4F96-96A6-B26E7E5B9C8E}" ShortID="167846149">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{67438E22-F88E-47E6-BC27-75F33AB7EA45}" ShortID="740733600">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{A7DB6346-0810-47E8-8E0F-D78F67EE36CF}" WorkUnitID="{3DBED5E2-DA28-4487-B41E-D555A42C45BB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D41BF019-3913-4D6A-A8EF-CC458E9AD6AB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>7</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>19</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{8463CB82-AD7F-4543-A01F-488E15C6B0BD}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_amb_dungeon_day_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="120854896"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_dungeon_day_background_loop_01" ID="{8463CB82-AD7F-4543-A01F-488E15C6B0BD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_forest_day_background_loop_01" ID="{450900E9-C46F-4CA3-8E89-0846B5B5970D}" ShortID="744505322">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{718A8ACB-FF4C-458C-B6DE-9BDBDD10485B}" ShortID="310811855">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{A7DB6346-0810-47E8-8E0F-D78F67EE36CF}" WorkUnitID="{3DBED5E2-DA28-4487-B41E-D555A42C45BB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B18C176F-B978-4147-A03F-DD5314247060}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>7</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>19</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_forest_day_background_loop_01" ID="{7F2D0FA0-873B-42EC-B4CC-E8C97ABA8D60}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_amb_forest_day_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="699079078"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_forest_day_background_loop_01" ID="{7F2D0FA0-873B-42EC-B4CC-E8C97ABA8D60}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_pineforest_night_background_loop_01" ID="{AB2398F3-B2CF-4EB5-83C7-7CBF01C8EC7B}" ShortID="821388790">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{640AB409-D912-4A70-A237-36C27519C25C}" ShortID="975346498">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{A7DB6346-0810-47E8-8E0F-D78F67EE36CF}" WorkUnitID="{3DBED5E2-DA28-4487-B41E-D555A42C45BB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4132BF23-7D53-42DC-9080-32828005BDE1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0.106580000000008</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>0.106580000000008</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6.94286</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>18.94286</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>-0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{97A87C3E-0B3D-4E3B-A930-F9FFE789CD6A}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_amb_pineforest_night_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="56399437"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_pineforest_night_background_loop_01" ID="{97A87C3E-0B3D-4E3B-A930-F9FFE789CD6A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_village_day_background_loop_01" ID="{C66B5A42-CAC9-40A5-9D4A-F94D68838FC2}" ShortID="773633976">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{E4CD9503-84A5-4C48-91D7-8E787365E7C4}" ShortID="79896820">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{A7DB6346-0810-47E8-8E0F-D78F67EE36CF}" WorkUnitID="{3DBED5E2-DA28-4487-B41E-D555A42C45BB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{BF772764-B908-4E89-973A-91D744CBF4AD}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>7</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>19</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_village_day_background_loop_01" ID="{62995FFE-EBA4-42C5-84D2-05757B892143}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_amb_village_day_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="46144606"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_village_day_background_loop_01" ID="{62995FFE-EBA4-42C5-84D2-05757B892143}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_amb_village_night_background_loop_01" ID="{CACCB94E-57F8-4F61-B544-6DE30B75FE30}" ShortID="986328870">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{7F35CB7B-422E-49E2-835F-97A1F0276D6E}" ShortID="190554893">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time_of_Day" ID="{A7DB6346-0810-47E8-8E0F-D78F67EE36CF}" WorkUnitID="{3DBED5E2-DA28-4487-B41E-D555A42C45BB}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D028CC12-86D3-44A0-A211-B038CBECE1A7}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0.106580000000008</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>6</XPos>
+														<YPos>0.106580000000008</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>6.94286</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>18.94286</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>20</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>-0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_amb_village_night_background_loop_01" ID="{AB2CF20B-0491-4D51-99ED-5AC70F30398F}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_amb_village_night_background_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="882351198"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_amb_village_night_background_loop_01" ID="{AB2CF20B-0491-4D51-99ED-5AC70F30398F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
@@ -1393,6 +2059,410 @@
 								</GroupingBehaviorList>
 							</GroupingInfo>
 						</SwitchContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="3D Emitters" ID="{F58FBB28-4436-42F7-9175-79749F0A481B}" ShortID="56907460">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{87F95AB1-3D84-41E3-8EB9-5A2EDCF5CE1D}" WorkUnitID="{45B7A445-4036-4688-919D-4764E05D0D35}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="BAS_Crystal_Ringing" ID="{FC3C7133-2B96-4F48-8E73-99844A14AAA5}" ShortID="298156665">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Crystal_Ringing" ID="{EFC729EC-C4EF-458C-9BFC-A39EC99CA7D7}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_Crystal_Ringing.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="353428126"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Crystal_Ringing" ID="{EFC729EC-C4EF-458C-9BFC-A39EC99CA7D7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_ForestBirds" ID="{6B0FD07A-7739-47F1-8EE8-8F6CF13130FC}" ShortID="798026341">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_ForestBirds" ID="{336CCD22-2839-49E5-B670-3C69B2E74963}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_ForestBirds.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="451680039"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_ForestBirds" ID="{336CCD22-2839-49E5-B670-3C69B2E74963}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Lava" ID="{003A8471-7FBE-4A99-AE9F-0BA6F3AD173B}" ShortID="1014981818">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Lava" ID="{541D70E9-651F-4776-91EC-9B54FD8428BA}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_Lava.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="167327484"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Lava" ID="{541D70E9-651F-4776-91EC-9B54FD8428BA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Torch" ID="{9957A207-66DE-4523-92F2-8854F22F3B20}" ShortID="402588963">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Torch" ID="{270923CF-0F8A-4CA6-A656-D6DBF27D3C72}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_Torch.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="950152425"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Torch" ID="{270923CF-0F8A-4CA6-A656-D6DBF27D3C72}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Water_River" ID="{A54A5BD4-AA5F-4A82-9C9E-06FFFD1019F2}" ShortID="550258291">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Water_River" ID="{C6D876E1-276C-4FFD-B6F6-88EB9C27DD2E}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_Water_River.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="211377595"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Water_River" ID="{C6D876E1-276C-4FFD-B6F6-88EB9C27DD2E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_Waterfall" ID="{0B9B7733-2B7E-444F-9E87-900A85EC3F33}" ShortID="332824243">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_Waterfall" ID="{9F4CD162-F9CD-43C3-9549-899A06E4DE58}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_Waterfall.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="71478245"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_Waterfall" ID="{9F4CD162-F9CD-43C3-9549-899A06E4DE58}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_WindMillBlade_01" ID="{5DA8778F-4672-4B44-A57F-36EDCCA7DBFF}" ShortID="971123510">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_WindMillBlade_01" ID="{7AD37F5F-DB94-4C82-AAA3-D967102B8852}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_WindMillBlade_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="306156790"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_WindMillBlade_01" ID="{7AD37F5F-DB94-4C82-AAA3-D967102B8852}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_WindMillBlade_02" ID="{371374F7-5BBC-426A-8326-F6AAA6CA6717}" ShortID="328027388">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_WindMillBlade_02" ID="{DF2B439A-2C3E-4551-AFC4-3F8D6B6F66A8}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_WindMillBlade_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="982941015"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_WindMillBlade_02" ID="{DF2B439A-2C3E-4551-AFC4-3F8D6B6F66A8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAS_WindMillBlade_03" ID="{326789F0-53CA-4AAD-9C38-0151080865F7}" ShortID="480356843">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAS_WindMillBlade_03" ID="{1790D7AF-9E52-4CE0-92DD-79F2954CB025}">
+									<Language>SFX</Language>
+									<AudioFile>BAS_WindMillBlade_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="798835054"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BAS_WindMillBlade_03" ID="{1790D7AF-9E52-4CE0-92DD-79F2954CB025}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Waterdrops" ID="{0306F8D4-5588-4B99-BE29-E8DEA528DB82}" ShortID="860779716">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BAS_WaterDrops_01" ID="{25D193DA-D390-4FFE-8DB8-3960F3E0E971}" ShortID="175031603">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_WaterDrops_01" ID="{C3FAA22A-3392-4244-B571-EB7EFC63682B}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_WaterDrops_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="333556120"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_WaterDrops_01" ID="{C3FAA22A-3392-4244-B571-EB7EFC63682B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_WaterDrops_02" ID="{D90A004E-7281-4AF7-84C6-B5F177E0EE23}" ShortID="193952895">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_WaterDrops_02" ID="{2441F550-1207-4844-85EA-CB266B9FE304}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_WaterDrops_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="954845236"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_WaterDrops_02" ID="{2441F550-1207-4844-85EA-CB266B9FE304}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_WaterDrops_03" ID="{590BC5FF-F0C4-483E-B5F3-945527314C30}" ShortID="544553031">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_WaterDrops_03" ID="{5ED40436-588B-4B2D-9372-879C5CEC46A7}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_WaterDrops_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="633702521"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_WaterDrops_03" ID="{5ED40436-588B-4B2D-9372-879C5CEC46A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_WaterDrops_04" ID="{B2222E7C-A3C3-4531-8F4D-042160A53D49}" ShortID="872659032">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_WaterDrops_04" ID="{626F25BA-86B3-4762-B04E-06BC5E2E24E3}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_WaterDrops_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="169008223"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_WaterDrops_04" ID="{626F25BA-86B3-4762-B04E-06BC5E2E24E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_WaterDrops_05" ID="{5E3DDF85-9D1A-49BC-8E2E-047AC9FD7F59}" ShortID="1005842396">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_WaterDrops_05" ID="{3EA873EF-787A-42DB-90EB-73C5AEC26B55}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_WaterDrops_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="854789053"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_WaterDrops_05" ID="{3EA873EF-787A-42DB-90EB-73C5AEC26B55}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BAS_WaterDrops_06" ID="{D86C34F1-424A-4C00-AB90-515C76C38C56}" ShortID="673420521">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FCE1DF89-5A32-4702-9A92-9FD91F17C108}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BE8792-487C-4EA4-81E9-CF10137E4140}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BAS_WaterDrops_06" ID="{E30D6E22-78FE-47EE-9EAE-F5822ED31FEC}">
+											<Language>SFX</Language>
+											<AudioFile>BAS_WaterDrops_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="205139954"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BAS_WaterDrops_06" ID="{E30D6E22-78FE-47EE-9EAE-F5822ED31FEC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

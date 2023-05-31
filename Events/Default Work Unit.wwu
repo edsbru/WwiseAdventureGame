@@ -197,7 +197,24 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Ambient_Region_Desert" ID="{3D2F9FA5-FE7C-4CA8-8167-AEAA4AB66D96}"/>
+						<Event Name="Ambient_Region_Desert" ID="{3D2F9FA5-FE7C-4CA8-8167-AEAA4AB66D96}">
+							<ChildrenList>
+								<Action Name="" ID="{ED1CDC44-16EF-4DA8-9812-912C9D1C95C7}" ShortID="198115911">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_amb_desert_day_background_loop_01" ID="{A93B225D-A770-46DE-9D05-A97837086FCD}" WorkUnitID="{9157F5EB-8B5E-433E-AE5F-B094D5E1FB02}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{206E52BC-C164-4AE1-9B0C-995FE266EF42}" ShortID="481810863">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_amb_desert_night_background_loop_01" ID="{BBB5EC46-E2C6-4D70-BEF6-003D88DD966C}" WorkUnitID="{9157F5EB-8B5E-433E-AE5F-B094D5E1FB02}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
